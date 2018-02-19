@@ -2,17 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
 
-##Application link
+## Application link
 
 http://abhisheksaini.eu/projects/template_driven_form
 
 In template driven form, angular infers the form object from the DOM. Here, we simply setup the template in HTML and angular will automatically infer the structure of this form.
 
-##ngModel
+## ngModel
 
 We place this on input to tell the angular that it is a control of the form. To be recognized as a control in the form we give angular one more piece of information i.e. the name of this control and that is define by placing the noraml HTML attribute "name = name_of_control" on the input
 
-##(ngSubmit)
+## (ngSubmit)
 
 Angular gives a directive that is placed on the form element as a whole. It is called (ngSubmit), and it holds only one event we cam listen to. This event is made available by this directive and will be fired whenever this form is submitted.
 
@@ -24,13 +24,13 @@ It tells angular to give us the access of the form you created automatically. Th
 
 It is a decorator. It allows us to access the local refence element in the typescript code. 
 
-##In-built validators
+## In-built validators
 
 https://angular.io/api/forms/Validators
 
-##For the template-driven approach, we need the directives. We can find out their names, by searching for "validator" in the official docs: https://angular.io/api?type=directive 
+## For the template-driven approach, we need the directives. We can find out their names, by searching for "validator" in the official docs: https://angular.io/api?type=directive 
 
-##We can inspect the properties of the associated FormControl (like validity state), we can also export the directive into a local template variable using ngModel as the key (ex: #myVar="ngModel").
+## We can inspect the properties of the associated FormControl (like validity state), we can also export the directive into a local template variable using ngModel as the key (ex: #myVar="ngModel").
 
 ## [ngModel]="value"
 
