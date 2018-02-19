@@ -28,7 +28,7 @@ It is a decorator. It allows us to access the local refence element in the types
 
 https://angular.io/api/forms/Validators
 
-##F`or the template-driven approach, we need the directives. We can find out their names, by searching for "validator" in the official docs: https://angular.io/api?type=directive 
+##For the template-driven approach, we need the directives. We can find out their names, by searching for "validator" in the official docs: https://angular.io/api?type=directive 
 
 ##We can inspect the properties of the associated FormControl (like validity state), we can also export the directive into a local template variable using ngModel as the key (ex: #myVar="ngModel").
 
